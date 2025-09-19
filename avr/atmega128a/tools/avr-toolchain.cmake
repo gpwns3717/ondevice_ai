@@ -2,7 +2,7 @@
 set(CMAKE_SYSTEM_NAME Generic)  # 시스템 이름을 'Generic'(범용)으로 설정
 set(CMAKE_SYSTEM_PROCESSOR AVR) # 프로세서를 AVR 마이크로컨트롤러로 설정
 
-# 타겟 MCU 설정 (2025.04.11 수정 사항)
+# 타겟 MCU 설정 (2025.09.19 수정 사항)
 set(MCU atmega128a) # 사용할 마이크로컨트롤러를 ATmega128A로 설정
 set(CMAKE_C_FLAGS "-mmcu=${MCU} -DF_CPU=16000000UL -Os")    # MCU 설정 + F_CPU + 최적화
 set(CMAKE_CXX_FLAGS "-mmcu=${MCU}") # C++ 컴파일러에 MCU 설정 플래그 전달
