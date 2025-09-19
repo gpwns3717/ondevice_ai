@@ -9,6 +9,10 @@
 			"-DAVR_TOOLCHAIN_DIR=/media/user6/data/avr-gcc",
 			"-DCMAKE_MAKE_PROGRAM=/usr/bin/make"
 		],
-		"cmake.generator": "Unix Makefiles"
+		"cmake.generator": "Unix Makefiles",
+		"files.associations": {
+			"stdio.h": "c",
+			"io.h": "c"
+		}
 	}
 }
